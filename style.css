@@ -15,14 +15,14 @@ p{
 .styleForSubheadings{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
-    color:#64d2ad;
+    color:#8a3dba;
 }
 
 #makingTheTop{
     color: rgb(180, 98, 200);
 }
 
-li{  
+ul{  
       width: 100px;
       height: 30px;
       padding: 20px;
