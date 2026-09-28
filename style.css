@@ -23,10 +23,14 @@ p{
 }
 
 ul{  
+      
+      display: flex;
+      justify-content: center;
+}
+li{
       width: 100px;
       height: 30px;
       padding: 20px;
       margin: 10px;
-      display: flex;
-      justify-content: center;
+
 }
