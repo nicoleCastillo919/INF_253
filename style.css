@@ -23,11 +23,6 @@ p{
     color: rgb(180, 98, 200);
 }
 
-ul{  
-      
-      display: flex;
-      justify-content: center;
-}
 li{
       width: 100px;
       height: 30px;
