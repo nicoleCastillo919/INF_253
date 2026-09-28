@@ -22,9 +22,11 @@ p{
     color: red;
 }
 
-li{
+ul{  
       width: 100px;
       height: 30px;
       padding: 20px;
       margin: 10px;
+      display: flex;
+      justify-content: center;
 }
