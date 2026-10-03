@@ -2,7 +2,7 @@
 <html lang "en US">
     <head>
        <meta charset="utf-8">
-        <title>MAKING TABLE</title>
+        <title>MAKING TABLE AND FORM</title>
     </head>
     <body>
         <h1>Making a table for INF 253 01</h1>
@@ -60,22 +60,40 @@
 
         <h2>Register</h2>
         <form>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" name="name" placeholder="Your Name">
+            </div>
 
-            <label for="name">Name:</label>
-            <input type="text" name="name" placeholder="Your Name">
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" placeholder="Email">
+            </div>
+            
+            <div>
+                <label for="program">Program</label>
+                <select name="program">
+                        <option vale="Community-book-club">Community Book Club</option>
+                        <option value="Family-story-time">Family Story Tim</option>
+                        <option value="Genealogy-workshop">Genealogy Workshop</option>
+                        <option value="intro-to-3d-printintg">Intro to 3D Printing</option>
+                        <option value="local-history-tree">Local History Talk</option>
+                </select>
+            </div>
+            
+            <div>
+                <label for="in-person">In Person</label>
+                <input for="radio" name="in-person" value="In Person">
+            </div>
 
-            <label for="email">Email:</label>
-            <input type="email" name="email" placeholder="Email">
+            <div>
+                <label for="Online">Online</label>
+                <input for="radio" name="online" value="online">
+            </div>
 
-            <label for="program">Program</label>
-            <select name="program">
-                    <option>Community Book Club</option>
-                    <option>Family Story Tim</option>
-                    <option>Genealogy Workshop</option>
-                    <option>Intro to 3D Printing</option>
-                    <option>Local History Talk</option>
-            </select>
-
+            <div>
+                <input for="Submit" name="Register">
+            </div>
 
 
 
