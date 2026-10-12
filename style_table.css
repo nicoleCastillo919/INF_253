@@ -13,7 +13,7 @@ h1 {
 table {
     grid-column: 1 / 2;
     grid-row: 2;
-    width: 100%;
+
 }
 
 h2 {
@@ -24,4 +24,9 @@ h2 {
 form {
     grid-column: 2 / 3;
     grid-row: 2;
+}
+
+footer{
+    grid-column: 3/3;
+    grid-row: 3;
 }
