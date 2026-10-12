@@ -1,1 +1,108 @@
+<!DOCTYPE html>
+<html lang "en US">
+    <head>
+       <meta charset="utf-8">
+        <title>MAKING TABLE AND FORM</title>
+    </head>
+    <body>
+        <h1>Making a table for INF 253 01</h1>
+       
+        <table>
+            <caption>Libary Programs</caption>
+            <thead>
+                <tr>
+                    <td>Program</td>
+                    <td>Date</td>
+                    <td>Time</td> 
+                    <td>Location</td>
+                    <td>Audience</td>
+                </tr>
+            </thead>
+            
+            <tbody>
+                <tr>
+                    <td>Community Book Club</td>
+                    <td>Oct. 8</td>
+                    <td>6:30 PM</td>
+                    <td>Room A</td>
+                    <td>Adults</td>
+                </tr>                
+                <tr>
+                    <td>Family Story Time</td>
+                    <td>Oct. 10</td>
+                    <td>10:00 AM</td>
+                    <td>Children's Room</td>
+                    <td>Families</td>
+                </tr>
+                <tr>
+                    <td>Genealogy Workshop</td>
+                    <td>Oct. 12</td>
+                    <td>2:00 PM</td>
+                    <td>Room B</td>
+                    <td>Adults</td>
+                </tr>
+                <tr>
+                    <td>Intro to 3D Printing</td>
+                    <td>Oct. 15</td>
+                    <td>6:00 PM</td>
+                    <td>Makerspace</td>
+                    <td>Teens & Adults</td>
+                </tr>
+                 <tr>
+                    <td>Local History Talk</td>
+                    <td>Oct. 15</td>
+                    <td>6:00 PM</td>
+                    <td>Auditorium</td>
+                    <td>Everyone</td>
+                </tr>
+            </tbody>
+        </table>
 
+        <h2>Register</h2>
+        <form>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" name="name" placeholder="Your Name">
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" placeholder="Email">
+            </div>
+            
+            <div>
+                <label for="program">Program</label>
+                <select name="program">
+                        <option vale="Community-book-club">Community Book Club</option>
+                        <option value="Family-story-time">Family Story Tim</option>
+                        <option value="Genealogy-workshop">Genealogy Workshop</option>
+                        <option value="intro-to-3d-printintg">Intro to 3D Printing</option>
+                        <option value="local-history-tree">Local History Talk</option>
+                </select>
+            </div>
+            
+            <div>
+                <label for="in-person">In Person</label>
+                <input type="radio" name="in-person" value="In Person">
+            </div>
+
+            <div>
+                <label for="Online">Online</label>
+                <input type="radio" name="online" value="online">
+            </div>
+
+            <div>
+                <input type="submit" name="Register">
+            </div>
+
+
+
+        </form>
+
+
+    
+    
+    
+    
+    </body>
+</html>
