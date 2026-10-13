@@ -30,3 +30,9 @@ footer{
     grid-column: 3/3;
     grid-row: 3;
 }
+
+
+button:hover{
+    color: white;
+    background-color: blue; 
+}   
