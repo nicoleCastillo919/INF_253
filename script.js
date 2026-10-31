@@ -9,11 +9,11 @@ button.addEventListener("click",function(){
 
   if(!message.hidden)
   {
-    button.textContent = "Hide message"
+    button.textContent = "Hide message";
   }
   else
   {
-    button.textContent = "Show message"
+    button.textContent = "Show message";
   }
 
 
