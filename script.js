@@ -4,4 +4,16 @@ const message = document.getElementById("message");
 
 button.addEventListener("click",function(){
   message.hidden = !message.hidden;
+
+  if(!message.hidden)
+  {
+    button.textContent = "Hide message"
+  }
+  else
+  {
+    button.textContent = "Show message"
+  }
+
+
+
 });
