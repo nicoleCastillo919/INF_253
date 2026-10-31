@@ -10,10 +10,12 @@ button.addEventListener("click",function(){
   if(!message.hidden)
   {
     button.textContent = "Hide message";
+    
   }
   else
   {
     button.textContent = "Show message";
+    button.textContent = "done";
   }
 
 
