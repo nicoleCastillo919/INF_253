@@ -15,7 +15,7 @@ button.addEventListener("click",function(){
   else
   {
     button.textContent = "Show message";
-    button.textContent = "done";
+    message.style.backgroundColor: pink;
   }
 
 
