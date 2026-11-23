@@ -2,9 +2,9 @@ const buttons = document.querySelectorAll(".details-button");
 const details = document.querySelectorAll(".program-details");
 
 
-buttons.forEach(function(button)){
+buttons.forEach(function(button){
 
-  button.addEventListen("click", function() {
+  button.addEventListener("click", function() {
   
     details.forEach(function(){
         item.hidden = true;    
