@@ -6,7 +6,7 @@ buttons.forEach(function(button){
 
   button.addEventListener("click", function() {
   
-    details.forEach(function(){
+    details.forEach(function(item){
         item.hidden = true;    
     });
 
