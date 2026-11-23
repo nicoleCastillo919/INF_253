@@ -37,7 +37,7 @@
                     <td>10:00 AM</td>
                     <td>Children's Room</td>
                     <td>Families</td>
-                    <td><button type="button" class="details-button" data-target="book-club">View Details</button></td>
+                    <td><button type="button" class="details-button" data-target="story-time">View Details</button></td>
                 </tr>
                 <tr>
                     <td>Genealogy Workshop</td>
@@ -47,9 +47,25 @@
                     <td>Adults</td>
                     <td><button type="button" class="details-button" data-target="gen-work">View Details</button></td>
                 </tr>
-              
                
         </table>
+        <div class="about">
+            <h2>Program details</h2>
+            <p>Details go here.....</p>
+            <div id= "book-club" class="program-details" hidden> 
+                <h3>Book club details</h3>
+                <p>Some details here</p>
+            </div>
+            <div id="story-time" class="program-details" hidden>
+                <h3>Story Time details</h3>
+                <p>Some details here</p>
+            </div>
+            <div id="gen-work" class="program-details" hidden>
+                <h3>Gen Work details</h3>
+                <p>Some details here</p>
+            </div>
+            
+        </div>
 
         <h2>Register</h2>
         <form>
@@ -69,8 +85,6 @@
                         <option vale="Community-book-club">Community Book Club</option>
                         <option value="Family-story-time">Family Story Tim</option>
                         <option value="Genealogy-workshop">Genealogy Workshop</option>
-                        <option value="intro-to-3d-printintg">Intro to 3D Printing</option>
-                        <option value="local-history-tree">Local History Talk</option>
                 </select>
             </div>
             
