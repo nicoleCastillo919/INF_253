@@ -68,10 +68,10 @@
         </div>
 
         <h2>Register</h2>
-        <form>
+        <form id="registration-form">
             <div>
                 <label for="name">Name:</label>
-                <input type="text" name="name" placeholder="Your Name">
+                <input type="text" name="name" placeholder="Your Name" id="registration-name" required>
             </div>
 
             <div>
@@ -81,7 +81,7 @@
             
             <div>
                 <label for="program">Program</label>
-                <select name="program">
+                <select name="program" id="registration-program" required>
                         <option value="Community-book-club">Community Book Club</option>
                         <option value="Family-story-time">Family Story Tim</option>
                         <option value="Genealogy-workshop">Genealogy Workshop</option>
