@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang "en-US">
+    <head>
+       <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Libary Programs</title>
+         <link href="style_table.css" rel="stylesheet"/>    </head>
+    <body>
+        <div hidden id ="confirmation-message"></div>
+        
+        <h1>Libary Programs Available</h1>
+        <table>
+            <caption>Libary Programs</caption>
+            <thead>
+                <tr>
+                    <th>Program</th>
+                    <th>Date</th>
+                    <th>Time</th> 
+                    <th>Location</th>
+                    <th>Audience</th>
+                    <th>Details</th>
+                </tr>
+            </thead>
+            
+            <tbody>
+                <tr>
+                    <td>Community Book Club</td>
+                    <td>Oct. 8</td>
+                    <td>6:30 PM</td>
+                    <td>Room A</td>
+                    <td>Adults</td>
+                    <td><button type="button" class="details-button" data-target="book-club">View Details</button></td>
+                </tr>                
+                <tr>
+                    <td>Family Story Time</td>
+                    <td>Oct. 10</td>
+                    <td>10:00 AM</td>
+                    <td>Children's Room</td>
+                    <td>Families</td>
+                    <td><button type="button" class="details-button" data-target="story-time">View Details</button></td>
+                </tr>
+                <tr>
+                    <td>Genealogy Workshop</td>
+                    <td>Oct. 12</td>
+                    <td>2:00 PM</td>
+                    <td>Room B</td>
+                    <td>Adults</td>
+                    <td><button type="button" class="details-button" data-target="gen-work">View Details</button></td>
+                </tr>
+               
+        </table>
+        <div class="about">
+            <h2>Program details</h2>
+            <p>Details go here.....</p>
+            <div id= "book-club" class="program-details" hidden> 
+                <h3>Book club details</h3>
+                <p>Some details here</p>
+            </div>
+            <div id="story-time" class="program-details" hidden>
+                <h3>Story Time details</h3>
+                <p>Some details here</p>
+            </div>
+            <div id="gen-work" class="program-details" hidden>
+                <h3>Gen Work details</h3>
+                <p>Some details here</p>
+            </div>
+            
+        </div>
+
+        <h2>Register</h2>
+        <form id="registration-form">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" name="name" placeholder="Your Name" id="registration-name" required>
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" placeholder="Email">
+            </div>
+            
+            <div>
+                <label for="program">Program</label>
+                <select name="program" id="registration-program" required>
+                        <option value="Community-book-club">Community Book Club</option>
+                        <option value="Family-story-time">Family Story Tim</option>
+                        <option value="Genealogy-workshop">Genealogy Workshop</option>
+                </select>
+            </div>
+            
+            <div>
+                <label for="in-person">In Person</label>
+                <input type="radio" name="in-person" value="In Person">
+            </div>
+
+            <div>
+                <label for="Online">Online</label>
+                <input type="radio" name="online" value="online">
+            </div>
+
+            <div>
+                <input type="submit" name="Register">
+            </div>
+        </form>
+
+    <footer>
+        Other resources given from the libary. 
+    </footer>
+    
+    
+    <script src="./script12.js"></script>
+    
+    </body>
+</html>
