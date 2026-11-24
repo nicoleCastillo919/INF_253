@@ -6,7 +6,7 @@ body{
     background-color: #C79C81;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     flex-direction: column; 
-    font-color: #9C7052;
+    color: #9C7052;
 }
 
 h1 {
