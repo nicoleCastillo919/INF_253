@@ -153,6 +153,12 @@ button:hover{
     background-color: blue; 
 }      
 
+#confirmation-message {
+    border: 1px solid blue;
+    background-color: purple;
+    padding: 12px 24px; 
+    
+}
 
 
 }
