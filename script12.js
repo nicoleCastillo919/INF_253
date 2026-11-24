@@ -19,7 +19,7 @@ buttons.forEach(function(button){
 });
 
 
-const form = document.querySelector("registration-form");
+const form = document.querySelector("#registration-form");
 
 form.addEventListener("submit", function(event){
 
