@@ -3,9 +3,10 @@ body{
     display: grid;
     grid-template-column: 1fr;
     gap: 30 px;
-    background-color: #81C7B4;
+    background-color: #C79C81;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     flex-direction: column; 
+    font-color: #9C7052;
 }
 
 h1 {
