@@ -129,8 +129,8 @@ button:hover{
 }  
 
 #confirmation-message {
-    border: 1px solid blue;
-    background-color: purple;
+    border: 1px solid #2F2119;
+    background-color: #B79076;
     padding: 12px 24px; 
     
 }
